@@ -16,6 +16,13 @@ const HeroImg = () => {
       <div className="content">
         <p>HI, I AM A FREELANCER.</p>
         <h1>FullStack Developer.</h1>
+        {/* <img
+          src={ImgIntro}
+          width="150"
+          height="150"
+          style={{ borderRadius: 100 }}
+          alt=""
+        /> */}
         <div>
           <Link to="/project" className="btn">
             Projects
