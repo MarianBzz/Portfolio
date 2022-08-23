@@ -2,7 +2,6 @@
     text-align: center;
     margin: auto;
     justify-content: center;
-    padding: 3rem;
     height: 152vh;
     background: url("../../assets/aboutprob.jpeg") no-repeat center ;
     background-size:cover;
@@ -10,9 +9,18 @@
     position: relative;
 }
 
+
+
 .about .left{
-    flex-direction: row;
-    margin-top: 20rem;
+    flex-direction: row; 
+}
+
+.about .titulos{
+    display: flex;
+    margin-top: 10rem;
+    flex-direction: row; 
+
+
 }
 
 
@@ -33,11 +41,30 @@
     border-radius: 1000px;
 }
 
+.btnabout{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 3rem;
+  
+
+}
+
 @media screen and (max-width: 740px){
     .about .left{
         flex-direction: column;
         grid-template-columns: 1fr;
 }
+    .about .firsttitle{
+        padding-top: 3rem;
+        margin-bottom: 4rem;
+}
+
+    .btnabout{
+        margin-top: 7rem;
+    }
+
+
     
 }
 
