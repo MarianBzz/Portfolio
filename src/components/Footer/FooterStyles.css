@@ -1,6 +1,6 @@
 .footer{
     width: 100%;
-    padding: 6rem 0;
+    padding: 2rem 0;
     background-color: rgba(19, 19, 19, 0.8);
 }
 
@@ -32,8 +32,9 @@
 .right{
     height: 100%;
     max-width: 100%;
-    display: flex;
+    display:flex;
     flex-direction: column;
+    align-items: flex-end;
     padding: 1rem;
 }
 

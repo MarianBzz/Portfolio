@@ -39,18 +39,26 @@ const Footer = () => {
         </div>
         <div className="right">
           <div className="social">
-            <FaLinkedin
-              size={20}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaGithub
-              size={20}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaInstagram
-              size={20}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <a href="https://www.linkedin.com/in/mariano-bozzoletti/">
+              <FaLinkedin
+                size={40}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+
+            <a href="https://github.com/MarianBzz">
+              <FaGithub
+                size={40}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+
+            <a href="https://www.instagram.com/marianobozzoletti/">
+              <FaInstagram
+                size={40}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>
