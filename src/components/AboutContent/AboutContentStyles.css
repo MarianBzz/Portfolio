@@ -50,8 +50,8 @@
 
 }
 
-@media screen and (max-width: 740px){
-    .about .left{
+@media screen and (max-width: 600px){
+    .about .left .titulos{
         flex-direction: column;
         grid-template-columns: 1fr;
 }
