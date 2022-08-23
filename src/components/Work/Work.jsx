@@ -18,6 +18,7 @@ const Work = () => {
               title={val.title}
               text={val.text}
               view={val.view}
+              src={val.src}
             />
           );
         })}

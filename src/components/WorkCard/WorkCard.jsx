@@ -1,9 +1,8 @@
 import "./WorkCardStyles.css";
 import React from "react";
-import pro1 from "../../assets/prueba3.jpg";
-import { NavLink } from "react-router-dom";
 
 const WorkCard = (props) => {
+  console.log(props);
   return (
     <div className="project-card">
       <img src={props.imgsrc} alt="ImageProject" />
@@ -11,12 +10,13 @@ const WorkCard = (props) => {
       <div className="pro-details">
         <p>{props.text}</p>
         <div className="pro-btns">
-          <NavLink to={props.view} className="btn">
-            View
-          </NavLink>
-          <NavLink to="url.com" className="btn">
+          <a href={props.src} target="_blank" className="btn">
             Source
-          </NavLink>
+          </a>
+
+          <a href={props.view} target="_blank" className="btn">
+            Video
+          </a>
         </div>
       </div>
     </div>
