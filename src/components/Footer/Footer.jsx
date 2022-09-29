@@ -53,12 +53,12 @@ const Footer = () => {
               />
             </a>
 
-            <a href="https://www.instagram.com/marianobozzoletti/">
+            {/* <a href="https://www.instagram.com/marianobozzoletti/">
               <FaInstagram
                 size={40}
                 style={{ color: "#fff", marginRight: "1rem" }}
-              />
-            </a>
+              /> */}
+            {/* </a> */}
           </div>
         </div>
       </div>
