@@ -12,7 +12,7 @@ const WorkCard = (props) => {
       data-aos-easing="ease-out-cubic"
       className="project-card"
     >
-      <img src={props.imgsrc} alt="ImageProject" />
+      <img className="image-project" src={props.imgsrc} alt="ImageProject" />
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
         <p>{props.text}</p>

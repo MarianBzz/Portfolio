@@ -15,10 +15,13 @@
 .project-card{
     background: #1a1919;
     padding: 1.2rem 1rem;
+    margin: 1rem 7rem ;
+    border-radius: 2%;
 }
 
 .project-card img{
     width: 100%;
+    border-radius: 2%;
 }
 
 .project-title{
@@ -40,13 +43,17 @@
 
 .pro-btns .btn{
     padding: 0.5rem 1rem;
+    border-radius: 5%;
 }
 
 
 @media screen and (max-width: 740px){
     .project-container{
-        max-width: 90%;
+        max-width: 95%;
         margin: auto;
         grid-template-columns: 1fr;
     }
-}
+    .project-card{
+        margin: 1rem 2rem;
+    }
+}   

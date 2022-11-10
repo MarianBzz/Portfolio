@@ -10,6 +10,7 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    
 }
 
 .mask::after{
@@ -20,7 +21,7 @@
     top: 0;
     left: 0;
     background-color: #000;
-    opacity: 0.4;
+    background: linear-gradient(to bottom, transparent 0%, black 105%);
 }
 
 .hero{
@@ -49,6 +50,7 @@
 
 .content .btn{
     margin: 1rem 0.2rem;
+    border-radius: 5%;
 }
 
 @media screen and (max-width:640px){

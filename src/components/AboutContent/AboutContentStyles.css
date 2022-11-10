@@ -51,6 +51,10 @@
  .firsttitle{
     align-items: center;
  }
+
+ .firsttitle p{
+   z-index: 10;
+ }
 @media screen and (max-width: 600px){
     .about .left .titulos{
         flex-direction: column;

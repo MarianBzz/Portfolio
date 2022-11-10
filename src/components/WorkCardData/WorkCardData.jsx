@@ -1,8 +1,16 @@
 import doggyproj from "../../assets/doggyproj.jpeg";
 import fixyproj from "../../assets/fixyproj.jpeg";
 import picPicker from "../../assets/picPicker.jpg";
+import sneakers from "../../assets/ecommerceSneakers.png";
 
 const ProjectCardData = [
+  {
+    imgsrc: sneakers,
+    title: "E-commerce Sneakers",
+    text: "Sneakers is a FrontEnd Mentor challenge, it consists of replicating a design with different types of functionalities. Among them are interactive shopping cart, switch the large product image by clicking on the small thumbnail images, lightbox gallery and 100% responsive design.",
+    src: "https://e-commerce-sneakers-delta.vercel.app/",
+    view: "https://www.linkedin.com/feed/update/urn:li:activity:6976185210136596480/",
+  },
   {
     imgsrc: picPicker,
     title: "PicPicker App",
