@@ -14,7 +14,7 @@ const Form = () => {
         <label>Email</label>
         <input type="email" name="email" />
         <label>Subject</label>
-        <input type="text" name="Motivo" />
+        <input type="text" name="motivo" />
         <label>Message</label>
         <textarea
           rows="6"
