@@ -10,13 +10,13 @@ const Form = () => {
         method="POST"
       >
         <label>Your Name</label>
-        <input type="text" />
+        <input type="text" name="text" />
         <label>Email</label>
-        <input type="email" />
+        <input type="email" name="email" />
         <label>Subject</label>
-        <input type="text" />
+        <input type="text" name="text" />
         <label>Message</label>
-        <textarea rows="6" placeholder="Type your message here" />
+        <textarea rows="6" name="text" placeholder="Type your message here" />
         <button type="submit" className="btn">
           Submit
         </button>
