@@ -43,7 +43,7 @@ const AboutContent = () => {
         </div>
       </div>
       <div className="btnabout">
-        <a
+        {/* <a
           data-aos="flip-left"
           data-aos-duration="1000"
           className="btn"
@@ -51,7 +51,7 @@ const AboutContent = () => {
           href="https://www.dropbox.com/s/2adabgdyz86iniz/CV%20-%20Mariano%20Bozzoletti.pdf?dl=0"
         >
           CV
-        </a>
+        </a> */}
         <a
           data-aos="flip-right"
           data-aos-duration="1000"
