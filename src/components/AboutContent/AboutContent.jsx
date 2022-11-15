@@ -37,7 +37,7 @@ const AboutContent = () => {
             <h1>My Stack:</h1>
             <p>
               JavaScript | React | React Native | Redux | Node Js | Express |
-              PostgreSQL | HTML | CSS | GitHub | Jira
+              PostgreSQL | HTML | CSS | TailwindCSS | GitHub | Jira | Scrum
             </p>
           </div>
         </div>
